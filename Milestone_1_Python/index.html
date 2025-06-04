@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div onclick="inc()" >
+        +
+    </div>
+    <div id="counter" >
+      0
+    </div>
+    <div onclick="dec()">
+        -
+    </div>
+</body>
+<script>
+    let counter = 0
+
+    function inc(){
+        counter += 1
+        updateDisplay()
+    }
+    function dec(){
+        counter -= 1
+        updateDisplay()
+    }
+
+    function updateDisplay(){
+        document.getElementById('counter').innerText =counter
+    }
+
+</script>
+</html>
