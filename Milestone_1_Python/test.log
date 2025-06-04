@@ -1,6 +1,14 @@
-INFO:root:Normal information
-WARNING:root:This is a warning
-ERROR:root:This is an error
-CRITICAL:root:This is a critical message
-ERROR:root:This is an exception message
-NoneType: None
+ERROR:root:Division by zero is not allowed.
+INFO:root:This is an info message.
+WARNING:root:This is a warning message.
+ERROR:root:This is an error message.
+CRITICAL:root:This is a critical message.
+ERROR:root:Division by zero is not allowed.
+INFO:root:This is an info message.
+WARNING:root:This is a warning message.
+ERROR:root:This is an error message.
+CRITICAL:root:This is a critical message.
+INFO:root:This is an info message.
+WARNING:root:This is a warning message.
+ERROR:root:This is an error message.
+CRITICAL:root:This is a critical message.
