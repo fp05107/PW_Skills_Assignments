@@ -1,0 +1,39 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+myenv/
+
+# Environment files
+.env
+*.env
+
+# IDE settings
+.idea/
+.vscode/
+
+# Flask specific
+instance/
+*.db
+*.sqlite3
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.whl
+
+# OS/System files
+.DS_Store
+Thumbs.db
