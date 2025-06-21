@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neon Home Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-color: #0f0f0f;
+    }
+    .neon-text {
+      color: #39ff14;
+      text-shadow: 0 0 5px #39ff14, 0 0 10px #39ff14, 0 0 20px #39ff14, 0 0 40px #0f0, 0 0 80px #0f0;
+    }
+    .neon-button {
+      color: #fff;
+      background-color: transparent;
+      border: 2px solid #39ff14;
+      padding: 0.75rem 1.5rem;
+      border-radius: 9999px;
+      transition: all 0.3s ease;
+      text-shadow: 0 0 5px #39ff14;
+    }
+    .neon-button:hover {
+      background-color: #39ff14;
+      color: #000;
+      box-shadow: 0 0 10px #39ff14, 0 0 20px #39ff14;
+    }
+    .glow-card {
+      border: 2px solid #39ff14;
+      box-shadow: 0 0 15px #39ff14;
+      transition: transform 0.3s ease;
+    }
+    .glow-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px #39ff14;
+    }
+  </style>
+</head>
+<body class="font-mono text-white">
+
+  <!-- Header -->
+  <header class="p-6 flex justify-between items-center border-b border-green-500">
+    <h1 class="text-3xl neon-text">⚡ NeonSite</h1>
+    <nav class="space-x-6">
+      <a href="#" class="neon-text hover:underline">Home</a>
+      <a href="#" class="neon-text hover:underline">Projects</a>
+      <a href="#" class="neon-text hover:underline">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="text-center py-24">
+    <h2 class="text-5xl font-bold neon-text mb-6">Welcome to the Future</h2>
+    <p class="text-lg text-green-300 mb-8">A glowing, responsive homepage built with pure HTML + Tailwind CSS</p>
+    <a href="#start" class="neon-button">Get Started</a>
+  </section>
+
+  <!-- Features Section -->
+  <section class="grid md:grid-cols-3 gap-8 px-10 pb-24">
+    <div class="p-6 rounded-xl glow-card text-center">
+      <div class="text-4xl mb-4">💡</div>
+      <h3 class="text-2xl neon-text mb-2">Bright Ideas</h3>
+      <p class="text-green-300">Creative and futuristic designs at your fingertips.</p>
+    </div>
+    <div class="p-6 rounded-xl glow-card text-center">
+      <div class="text-4xl mb-4">🚀</div>
+      <h3 class="text-2xl neon-text mb-2">High Performance</h3>
+      <p class="text-green-300">Fast loading, smooth animations, and clean code.</p>
+    </div>
+    <div class="p-6 rounded-xl glow-card text-center">
+      <div class="text-4xl mb-4">🌌</div>
+      <h3 class="text-2xl neon-text mb-2">Cosmic UI</h3>
+      <p class="text-green-300">Experience interfaces that feel out of this world.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-green-500 text-center py-6 text-green-400">
+    &copy; 2025 NeonSite. All rights reserved.
+  </footer>
+
+</body>
+</html>
