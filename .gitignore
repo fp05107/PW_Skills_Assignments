@@ -78,3 +78,4 @@ dist/
 Thumbs.db
 
 *.csv
+*.gz
