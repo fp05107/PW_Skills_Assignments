@@ -37,45 +37,32 @@ dist/
 # OS/System files
 .DS_Store
 Thumbs.db
-# Python bytecode
-__pycache__/
-*.py[cod]
-*.pyo
 
-# Virtual environments
-.venv/
-venv/
-env/
-myenv/
-
-# Environment files
-.env
-*.env
-
-# IDE settings
-.idea/
-.vscode/
-
-# Flask specific
-instance/
-*.db
-*.sqlite3
-
-# Jupyter notebook checkpoints
-.ipynb_checkpoints/
-
-# Logs
-*.log
-
-# Build artifacts
-build/
-dist/
-*.egg-info/
-*.whl
-
-# OS/System files
-.DS_Store
-Thumbs.db
-
+# Data and media files
 *.csv
 *.gz
+*.zip
+*.tar
+*.json
+
+# 🚫 Image & media files (prevent from pushing)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.ico
+*.svg
+*.webp
+*.mp4
+*.mov
+*.avi
+
+# Optional: deep folders containing images (for datasets)
+images/
+data/
+dataset/
+uploads/
+media/
+Milestone_4_DeepLearning/week_4/PetImages/
